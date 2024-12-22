@@ -5,6 +5,7 @@ import mail from '../../public/mail.png'
 import user from '../../public/user.png'
 import heart from '../../public/heart.png'
 import cart from '../../public/cart.png'
+import Link from 'next/link';
 
 
 import Image from 'next/image';
@@ -45,7 +46,7 @@ const Header = () => {
           {/* Navigation Links */}
           <ul className="flex gap-8 text-sm text-purple-600">
             <li className="hover:text-pink-500">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="hover:text-pink-500">
               <a href="#">Pages</a>
@@ -64,7 +65,11 @@ const Header = () => {
               <a href="#">Contact</a>
             </li>
             <li className="hover:text-pink-500">
-              <a href="/shop-grid-default">Shop-grid</a>
+            <a href="#"> Shop grid</a>
+
+              
+              
+
             </li>
           </ul>
           
