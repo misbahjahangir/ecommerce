@@ -27,12 +27,21 @@ const Header = () => {
 
         <li>USD</li>
         <Image src={arrow} alt='arrow-pic' />
-        <li>Login</li>
+
+
+        <Link href="/login">login</Link>
         <Image src={user} alt='user-pic' />
-        <li>Wishlist</li>
+
+        {/* <li>Wishlist</li> */}
+        <Link href="/shop-left">Wishlist</Link>
         <Image src={heart} alt='heart-pic' />
 
+        <Link href="/shopping-cart">
         <Image src={cart} alt='cart-pic' />
+        </Link>
+        
+        
+      
       </ul>
 
     </div>
@@ -49,23 +58,32 @@ const Header = () => {
               <a href="/">Home</a>
             </li>
             <li className="hover:text-pink-500">
-              <a href="#">Pages</a>
+               <a href="/">Pages</a>
+              <a href="/hekto-demo"></a>
+            </li>
+            
+            <li className="hover:text-pink-500">
+              <a href="/">Products</a>
             </li>
             <li className="hover:text-pink-500">
-              <a href="#">Products</a>
+              <a href="/blog-page">Blog</a>
             </li>
-            <li className="hover:text-pink-500">
-              <a href="#">Blog</a>
+            <li className='hover:text-pink-500'>
+              <a href="/about-us">About us</a>
             </li>
             <li className="hover:text-pink-500">
               <a href="/shoplist
               ">Shop</a>
+              
+              
             </li>
             <li className="hover:text-pink-500">
-              <a href="#">Contact</a>
+              <a href="/contact">Contact</a>
+          
             </li>
             <li className="hover:text-pink-500">
-            <a href="#"> Shop grid</a>
+            <a href="/shop-grid"> Shop grid</a>
+            
 
               
               

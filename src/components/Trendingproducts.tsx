@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image"
-import shop from '../../public/shop1.png'
+import view2 from '../../public/view2.png'
 import view from '../../public/view.png'
 
 
@@ -31,12 +31,12 @@ const TrendingProducts: React.FC = () => {
           <div className="bg-pink-50 p-6 rounded-lg text-center">
             <p className="font-bold text-xl">23% off in all products</p>
             <button className="text-pink-500 underline mt-2">Shop Now</button>
-            <Image src={shop} alt='shop-pic' />
+            <Image src={view2} alt='view2-pic' />
           </div>
           <div className="bg-pink-50 p-6 rounded-lg text-center">
             <p className="font-bold text-xl">23% off in all products</p>
             <button className="text-pink-500 underline mt-2">View Collection</button>
-            < Image src={view} alt='view-pic' />
+            <Image src={view} alt='view-pic' />
             
             
           </div>
